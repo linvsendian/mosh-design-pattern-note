@@ -218,14 +218,34 @@ PowerPoint中图形的组合
 
 ![image-20220421152206991](resources/image-20220421152206991.png)
 
-## Creation 创新型模式
-
-### Factory Method 工厂方法
-
-### Builder 生成器
+## Creational Pattern 创新型模式
 
 ### Prototype 原型
 
+比如ppt中形状的创建，通过复制来生成新的对象
+
+![image-20220421193717876](resources/image-20220421193717876.png)
+
+![image-20220421193738330](resources/image-20220421193738330.png)
+
 ### Singleton 单例
 
+### Factory Method 工厂方法
+
+在Spring、Django中常用
+
+![image-20220421202731600](resources/image-20220421202731600.png)
+
 ### Abstract Factory 抽象工厂
+
+![image-20220421205332630](resources/image-20220421205332630.png)
+
+### Builder 生成器
+
+比如ppt导出成pdf，或者markdown导出成pdf
+
+![image-20220421211257791](resources/image-20220421211257791.png)
+
+![image-20220421211713585](resources/image-20220421211713585.png)
+
+![image-20220421211739959](resources/image-20220421211739959.png)
