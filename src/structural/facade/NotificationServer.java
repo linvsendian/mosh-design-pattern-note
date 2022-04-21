@@ -1,7 +1,5 @@
 package structural.facade;
 
-import com.sun.xml.internal.ws.api.model.MEP;
-
 public class NotificationServer {
     // connect() -> Connection
     // authenticate(AppID, key) -> AuthToken

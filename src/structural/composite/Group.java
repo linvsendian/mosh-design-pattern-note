@@ -1,7 +1,5 @@
 package structural.composite;
 
-import sun.plugin.com.event.COMEventHandler;
-
 import java.util.ArrayList;
 import java.util.List;
 

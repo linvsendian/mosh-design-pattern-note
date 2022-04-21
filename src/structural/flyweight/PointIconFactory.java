@@ -1,7 +1,5 @@
 package structural.flyweight;
 
-import com.sun.corba.se.impl.interceptors.PICurrent;
-
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,4 +1,16 @@
-# Design Pattern
+# Design Pattern课程笔记
+
+## 项目简介
+
+项目源码在src/mosh/java下，如果想查看具体某个模式的如何运行，只要在对应目录下运行main函数即可，比如查看
+
+```
+- src/mosh/java
+	- behavioral
+	- creation
+	- structural
+```
+
 
 推荐书目： 《Design Patterns
 	Element of Reusable Object-Oriented Software》 -- by GoF
@@ -38,8 +50,10 @@ public class Editor {
 
 ### State Pattern 状态模式
 
-1. 比如ps中工具的选择
-2. 同样的比如UIControl
+问题再现
+
+1. 比如ps中对工具的选择，选择画笔或者框选工具，鼠标同样的操作，但是在画布上的行为不同
+2. 同样的比如UIControl，可以有TextBox，ListBox等
 
 我们需要遵守Open Closed Principle (Open for extension, Closed for modification)
 
@@ -53,9 +67,7 @@ public class Editor {
 
 应用：用于生成各种迭代器
 
-下面的例子是手写迭代器的案例
-
-一般来说，迭代器都是内部类实现的
+下面的例子是手写迭代器的案例 ，一般来说，迭代器都是内部类实现的
 
 ![image-20220418204450202](resources/image-20220418204450202.png)
 
@@ -63,13 +75,9 @@ public class Editor {
 
 首先来看一组案例
 
-> 发现和我最近在做的命令行工具很相似，以及和前面的状态模式很相似
+ps: 感觉和前面的状态模式很相似
 
 ```java
-package com.jacky.strategy;
-
-import java.util.Objects;
-
 public class ImageStorage {
 	private String compressor;
 	private String filter;
@@ -112,14 +120,6 @@ public class ImageStorage {
 #### 实践：包含撤销命令的设计
 
 ![image-20220419002450334](resources/image-20220419002450334.png)
-
-
-
-
-
-
-
-
 
 ### Observer Pattern 观察者模式
 
