@@ -2,22 +2,21 @@
 
 ## 项目简介
 
-项目源码在src/mosh/java下，如果想查看具体某个模式的如何运行，只要在对应目录下运行main函数即可，比如查看
+项目源码在src下，如果想查看具体某个模式的如何运行，只要在对应目录下找到Main类并运行main函数即可，比如查看
 
 ```
-- src/mosh/java
+- src
 	- behavioral
 	- creation
 	- structural
 ```
 
 
-推荐书目： 《Design Patterns
-	Element of Reusable Object-Oriented Software》 -- by GoF
+推荐书目： 《Design Patterns Element of Reusable Object-Oriented Software》 -- by GoF
 
 UML: Unified Modeling Language 33min34s
 
-## Behavioral Pattern 行为型模式
+## Behavioral Pattern 行为模式
 
 ### Memento Pattern 备忘录模式
 
@@ -214,8 +213,6 @@ PowerPoint中图形的组合
 ![image-20220421150239031](resources/image-20220421150239031.png)
 
 ![image-20220421152017799](resources/image-20220421152017799.png)
-
-
 
 ![image-20220421152146956](resources/image-20220421152146956.png)
 

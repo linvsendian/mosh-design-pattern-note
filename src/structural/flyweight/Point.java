@@ -1,10 +1,10 @@
 package structural.flyweight;
 
 public class Point  {
-    private int x;
-    private int y;
+    private final int x;
+    private final int y;
 
-    private PointIcon icon;
+    private final PointIcon icon;
 
     public Point(int x, int y, PointIcon icon) {
         this.x = x;

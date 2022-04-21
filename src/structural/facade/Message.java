@@ -1,7 +1,7 @@
 package structural.facade;
 
 public class Message {
-    private String content;
+    private final String content;
 
     public Message(String content) {
         this.content = content;
